@@ -1,0 +1,4 @@
+POST/bookings/ : validate payload - normalise data- store in db - respond with success/failure
+GET/bookings/: fetch from db- return list
+GET/bookings/{id} : fetch from db by id - return details
+DELETE/bookings/{id} : delete from db - return status
